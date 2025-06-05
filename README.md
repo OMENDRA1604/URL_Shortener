@@ -100,7 +100,7 @@ url-shortener/
 └── README.md
 </pre>
 
-##🧑‍💻 Author
+## 🧑‍💻 Author
   
 Omendra Singh
 
