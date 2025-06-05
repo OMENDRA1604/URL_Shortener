@@ -1,3 +1,5 @@
+require('dotenv').config();
+
 const express = require('express');
 const path = require('path');
 const cookieParser = require('cookie-parser');
@@ -11,9 +13,9 @@ const staticRoute = require('./routes/staticRouter');
 const userRoute = require('./routes/user');
 
 const app = express();
-const PORT = 8001;
+const PORT = process.env.PORT;
 
-connectToMongoDB('mongodb://127.0.0.1:27017/short-url');
+connectToMongoDB(process.env.MONGO_URL);
 
 app.set('view engine' , 'ejs');
 app.set('views' , path.resolve("./views"));
