@@ -74,7 +74,7 @@ http://localhost:8001
 
 ## 📁 Project Structure
 
-
+<pre>
 url-shortener/
 │
 ├── controllers/
@@ -98,8 +98,10 @@ url-shortener/
 ├── connect.js
 ├── package.json
 └── README.md
+</pre>
 
 ##🧑‍💻 Author
-  Omendra Singh
+  
+Omendra Singh
 
 
