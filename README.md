@@ -6,7 +6,7 @@ A lightweight and user-friendly **URL Shortener** built with **Node.js, Express,
 
 ## 🌐 Live Demo
 
-> Coming soon – deploy using platforms like [Render](https://render.com), [Railway](https://railway.app), or [Vercel](https://vercel.com).
+> Coming soon –  [Vercel](https://vercel.com).
 
 ---
 
